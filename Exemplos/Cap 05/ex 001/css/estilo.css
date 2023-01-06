@@ -1,0 +1,19 @@
+body{
+    margin: 5% 15%;
+}
+
+h1{
+    font-family: 'Press Start 2P', cursive;
+    }
+
+ @font-face {
+    font-family: 'Lobster';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Lobster'), url(lobster.woff) format('woff');
+    }
+
+p{
+    font-family: 'Lobster', cursive;
+    font-size: 1.4em;
+    }
