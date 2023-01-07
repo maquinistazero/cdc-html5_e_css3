@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Janela Moldal</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalise.css">
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <a id='show-modal' href='javascript:;'>Exibir modal</a>
+
+    <div class='notice'>
+        <h1>Atenção</h1>
+        <p>
+            Aqui você pode exibir alguma mensagem importante, que ela irá sobrepor todo o conteúdo do seu site.
+        </p>
+        <a href='javascript:;' class='close'>Fechar</a>
+    </div>
+    <div class="overlay"></div>
+
+
+    <script src='../vendor/jquery.min.js'></script>
+    <script>
+        $('#show-modal').on('click', function() {
+        $('.overlay, .notice').show();
+        });
+
+        $('.overlay, .close').on('click', function() {
+        $('.overlay, .notice').hide();
+        });
+
+        $('.overlay, .close').on('click', function() {
+        $('.overlay, .notice').hide();
+        });
+  </script>
+
+</body>
+</html>
