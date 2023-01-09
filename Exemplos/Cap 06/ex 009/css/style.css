@@ -1,0 +1,29 @@
+.container {
+    width: 610px;
+    padding: 10px;
+    margin: 0 auto;
+    }
+
+.column {
+    margin-right: 20px;
+    float: left;
+    }
+
+.column:last-child {
+    margin-right: 0;
+    }
+
+.six-columns {
+    /* largura equivalente a 6 colunas de 50px mais
+    20px de espaçamento entre cada uma delas.*/
+    width: 400px;
+    }
+
+.three-columns {
+    box-sizing: border-box;
+    width: 190px;
+    /* Um pouco de CSS só para diferenciar esta coluna das outras.*/
+    background-color: #FFFBE4;
+    border: 1px solid #C9BC8F;
+    margin-top: 20px;
+    }
