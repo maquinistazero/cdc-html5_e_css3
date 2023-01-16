@@ -1,0 +1,26 @@
+.loading {
+    background-color: #666;
+    border-radius: 50%;
+    font: 0/0 serif;
+    position: absolute;
+    font: 0/0 serif;
+    animation: pulse 1.5s infinite;
+    }
+
+@keyframes pulse {
+    0% {
+    width: 0;
+    height: 0;
+    opacity: 1;
+    top: 50px;
+    left: 50px;
+    }
+
+100% {
+    width: 30px;
+    height: 30px;
+    opacity: 0;
+    top: 35px;
+    left: 35px;
+    }
+}
